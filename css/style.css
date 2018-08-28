@@ -1,0 +1,159 @@
+/* Custom Styles */
+
+a {
+  color: #33b5e5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+.alert-primary {
+  background-color: #2D9AAC;
+  border-color: #2D9AAC;
+  color: #fff;
+  font-weight: 400;
+}
+
+body {
+  background-image: url("../images/congruent_outline.png");
+  background-color: #f8f9fa!important;
+  background-position: center;
+  font-family: 'Assistant', 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif;
+}
+
+.breadcrumb-item a {
+  color: #000;
+}
+
+.breadcrumb-item.active {
+  color: #33b5e5;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.btn-primary,
+.btn-secondary {
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Crimson Text';
+  letter-spacing: 2px;
+  margin: 12px 10px 0 0;
+  text-align: center;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #e9ecef;
+}
+
+.btn-primary:focus,
+.btn-secondary:focus {
+  background-color: #6a6a68 !important;
+}
+
+.btn-primary {
+  background-color: #33b5e5;
+}
+
+.btn-secondary {
+  background-color: #2D9AAC;
+}
+
+/* changes collapsable title color */
+.btn-link {
+  color: #33b5e5;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  color: #000;
+}
+
+.card {
+  margin: 10px;
+}
+
+.col a {
+  color: #000;
+}
+
+.col {
+  background-color: #fff;
+  border: 2px solid #33b5e5;
+  box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 3px #33b5e5;
+  padding: 20px;
+  margin: 5px;
+}
+
+.col:hover {
+  background-color: #e9ecef;
+}
+
+.containerContent {
+  background-color: #fff;
+  padding: 25px;
+}
+
+.list-group-item.active {
+    background-color: #33b5e5;
+    border-color: #33b5e5;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+  color: #000;
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: #33b5e5;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.progress-bar {
+  background-color: #2D9AAC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 16px; }
+
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+.version {
+  font-size: 10px;
+}
